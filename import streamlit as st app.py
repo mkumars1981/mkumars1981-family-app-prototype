@@ -1,4 +1,4 @@
-app.py
+import streamlit as st
 import google.generativeai as genai
 import pandas as pd
 import json
@@ -112,3 +112,4 @@ with tab2:
         if st.button("Save to Dashboard"):
 
             st.toast("Task saved to database!")
+
