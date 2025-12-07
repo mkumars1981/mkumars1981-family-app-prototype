@@ -1,4 +1,4 @@
-import streamlit as st
+app.py
 import google.generativeai as genai
 import pandas as pd
 import json
@@ -110,4 +110,5 @@ with tab2:
         st.caption(f"Task Summary: {extracted_data.get('task')}")
         
         if st.button("Save to Dashboard"):
+
             st.toast("Task saved to database!")
